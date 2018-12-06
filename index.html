@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+    <title>活动详情</title>
+    <!-- Bootstrap -->
+    <link href="/static/vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel='stylesheet' href='/static/vendors/nprogress/nprogress.css' />
+    <script src='/static/vendors/nprogress/nprogress.js'></script>
+    <script src="/static/vendors/jquery/jquery.min.js"></script>
+    <style>
+        .container {
+            padding-left: 16px;
+            padding-right: 16px;
+            font-size: 16px;
+            padding-bottom: 20px;
+            -webkit-overflow-scrolling: touch;
+        }
+        
+        .container p {
+            margin-top: 8px;
+            margin-bottom: 24px;
+        }
+        
+        .header_text {
+            text-align: center;
+            font-weight: bold;
+            color: white;
+            padding: 5px 15px;
+            width: 120px;
+            margin: 0 auto;
+            font-size: 18px;
+            background-color: rgb(107, 107, 182);
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        
+        .text_left {
+            margin: 0;
+            text-align: left;
+            line-height: 30px;
+        }
+        
+        .text_center {
+            margin: 0;
+            text-align: center;
+            line-height: 30px;
+        }
+        
+        .link {
+            text-decoration: none
+        }
+        
+        .rectangle {
+            background-color: rgb(65, 65, 151);
+            width: 85px;
+            color: white;
+            font-weight: bold;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            text-align: center;
+            border-radius: 3px;
+            margin-bottom: 14px;
+            margin-top: 14px;
+            box-shadow: 0px 5px 8px #888888;
+        }
+        
+        .tip li {
+            margin-bottom: 8px;
+            font-size: 14px;
+            line-height: 28px;
+        }
+        
+        .shiyi {
+            z-index: 1001;
+            position: relative;
+            top: 17px;
+        }
+        
+        .shiyi2 {
+            z-index: 1001;
+            position: relative;
+            top: -17px;
+        }
+        
+        .text_color {
+            color: rgb(99, 99, 185);
+            font-weight: bold;
+        }
+        /***********************/
+        
+        .xian {
+            border-top: 1px solid rgb(65, 65, 151);
+            text-align: center
+        }
+        
+        .rec2 {
+            margin: 0 auto;
+            color: white;
+            padding: 10px 5px;
+            width: 75%;
+            border-bottom-left-radius: 8px;
+            border-bottom-right-radius: 8px;
+            background-color: rgb(65, 65, 151);
+        }
+        
+        .foot {
+            border: 2px dashed rgb(65, 65, 151);
+            background-color: rgb(244, 244, 244);
+            padding: 2px 0px;
+        }
+        
+        .foot p {
+            margin-top: 0;
+            margin-bottom: 0;
+            line-height: 30px;
+            padding: 8px 10px;
+            font-size: 16px;
+        }
+        
+        .img1 {
+            border: 5px solid rgb(65, 65, 151);
+            position: relative;
+            left: 68px;
+        }
+        
+        .dai {
+            width: 55%;
+            background-color: rgb(65, 65, 151);
+            padding: 5px 10px;
+            color: white;
+            position: relative;
+            top: 88px;
+            left: -69px;
+            vertical-align: top;
+            display: inline-block;
+            z-index: -1;
+        }
+        
+        .triangle_left {
+            display: inline-block;
+            width: 0;
+            height: 0;
+            border-left: 30px solid white;
+            border-top: 30px solid transparent;
+            border-bottom: 30px solid transparent;
+            position: relative;
+            left: -49px;
+            top: 74px;
+        }
+        
+        .erweima {
+            margin-bottom: 20px;
+        }
+        
+        .tehui {
+            border: 2px solid rgb(65, 65, 151);
+            padding: 18px 15px;
+            padding-bottom: 0px;
+            border-radius: 15px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <script>
+        NProgress.start()
+    </script>
+    <div class="banner">
+        <img width="100%" class="img-responsive center-block" src="/activity/xuejianxin/images/1.png" alt="Responsive image">
+    </div>
+    <div class="container">
+        <div class="header">
+            <p class="text_left" style="font-weight: bold;">【报名】薛建新：慈悲疗愈力三日工作坊</p>
+        </div>
+        <p class="text_left">慈悲，作为一种重要的心灵品质，是多个修习传统的核心要素之一，为多个世代的人类所推崇和培育；而当代心理学家和脑神经科学家发现，慈悲同时也是一种可以培育的能力和内在资源。</p>
+        <p class="text_left">近二十年来，越来越多的实证学术研究表明：<span class="text_color">拥有开放的心灵和慈悲的态度的人，也是更能善待自己和他人、更善于应对生活挑战、活得健康平衡的人</span>。慈悲能疗愈过往的伤痛，把以往的经历转化为成长的养分，也能推动个体和社会身心健康和幸福感的提升。</p>
+        <p class="text_left">目前，国际心理学界对慈悲的研究，理解和应用在日益深化，出现了众多以慈悲为本的心理治疗和教育培训项目。<span class="text_color">元旦期间，5P医学联合明心工坊，在广州开办“慈悲疗愈力”三日工作坊</span>。</p>
+        <p class="text_left">本工作坊由薛建新老师设计，将介绍两个经典的慈悲为本的心理干预流派：<span class="text_color">正念自我慈悲（MSC, Mindful SelfCompassion）和慈悲聚焦疗法（CFT,Compassion-focusedtherapy）</span>。</p>
+        <p class="text_left">自我慈悲（self compassion）这一领域由两位美国心理学家Kristin Neff和Christopher Germer开创。在他们的研究中，自我慈悲包括三个互相联系的特质：对自我的友善、共通人性感、和正念觉察。三者彼此融合，让我们温暖地、有联结感的活在当下。好消息是，自我慈悲不是天生的，而是可以学习和培育的技能。
+            <span class="text_color">本次工作坊会介绍聚焦自我慈悲培育的MSC课程中的一部分核心练习和技能</span>。</p>
+        <p class="text_left">慈悲聚焦疗法的创始人是英国著名心理学家Paul Gilbert，建立在进化心理学、社会心理学、发展心理学和佛教心理学以及神经科学等多个源头的基础之上，并且整合了认知行为治疗，依恋理论和人本主义的元素，希望建立一种基于实证和对大脑运作的前沿理解的心理治疗科学。他也创立了一种培育慈悲心方法：
+            <span class="text_color">慈悲心智培育（CompassionateMind Training）</span>。</p>
+        <p class="text_left">“慈悲疗愈力”工作坊注重体验式学习，意在支持学习者通过亲身体验慈悲，并初步了解慈悲的历史，概况和当代前沿应用的新发展，体会慈悲为本的干预的特点和机制，为更深入的慈悲修习奠定基础，并把慈悲的培育引入个人的生活或者专业助人工作中。</p>
+        <div class="xian">
+            <div class="rec2">慈悲疗愈力元旦三日工作坊</div>
+            <div class="triangle_left"></div>
+            <div class="dai"><span style="position: relative;left:-3px">带领教师 薛建新</span></div>
+            <img width="35%" src="/activity/xuejianxin/images/2.jpg" class="img1 img-responsive img-circle center-block" alt="Responsive image">
+        </div>
+        <p class="text_left">薛建新是明心工坊创始人，他<span class="text_color">在美国完成了MSC的两位创始人等带领的MSC师资训练</span>，并在数轮授课中接受了团体督导，成为<span class="text_color">国内为数不多的TrainedMSCTeacher</span>，目前正在接受MSC的个体教学督导。</p>
+        <p class="text_left">他也是<span class="text_color">牛津大学正念中心认证MBCT教师和督导师，以及MBSR合格教师</span>。同时，他自2013年至今跟随Ann Weiser Cornell、David Rome等人学习聚焦focusing，对融合正念、慈悲与聚焦来促进内在改变的发生饶有兴趣。
+        </p>
+        <p class="text_left">他是北京大学学士、牛津大学管理学硕士、香港大学佛学硕士。</p>
+        <div class="rectangle">
+            <span>面向对象</span>
+        </div>
+        <ul class="tip">
+            <li>心理咨询师</li>
+            <li>医护人员等专业助人者</li>
+            <li>正念修习者</li>
+            <li>心理学爱好者</li>
+            <li>对慈悲感兴趣的其他人士</li>
+        </ul>
+        <div class="rectangle">
+            <span>课程内容</span>
+        </div>
+        <img width="100%" class="img-responsive center-block" src="/activity/xuejianxin/images/1.jpg" alt="Responsive image">
+        <div class="rectangle">
+            <span>补充说明</span>
+        </div>
+        <ul class="tip">
+            <li>工作坊需要全程参加，缺席一个半天以上，将无法获得结业证书。</li>
+            <li>这个工作坊是专业工作坊，并非心理治疗团体，所有参加者需要有能力为自己的身心健康负责。工作坊不适合心理疾患发作期的朋友参与。</li>
+        </ul>
+        <div class="rectangle">
+            <span>课程信息</span>
+        </div>
+        <p class="text_left">时间：2018年12月30日-2019年1月1日
+            <br>地点：广州市水荫路119号文投创工场16楼
+            <br>人数：精品小班，限额30人</p>
+        <div class="rectangle">
+            <span>报名信息</span>
+        </div>
+        <p class="text_center">学费：¥2500/人
+            <br><span class="text_color">12月1日前早鸟价：¥2200/人</span>
+            <br><span class="text_color">小班限额30人，额满即止！</span>
+            <br>费用包含学费、资料教材、引导音频等。</p>
+        <p class="text_left">账户名：广州钝感力网络科技有限公司
+            <br>开户行：农业银行 广州五羊新城支行
+            <br>账号号：440304 010400 03430
+            <br>支付宝：long999@aliyun.com
+            <br>或扫码下载【5P医学】APP选择需要的课程直接报名！</p>
+        <img width="40%" class="img-responsive center-block erweima" src="/activity/xuejianxin/images/3.jpg" alt="Responsive image">
+        <p class="text_left">报名后请尽快联系工作人员确认。
+            <br>金老师：188 1940 7188（同微信）
+            <br>吕老师：136 6004 7179（同微信）
+        </p>
+        <div class="foot">
+            <p class="text_left">慈悲疗愈力是一件人人都触手可及的礼物。不管时世有多么艰难，我们总可以在自己温暖的怀抱中抚慰支离破碎的自己。愿您也拥有这份礼物。</p>
+        </div>
+    </div>
+
+    <!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
+    <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+    <script src="/static/vendors/bootstrap/js/bootstrap.min.js"></script>
+    <script>
+        NProgress.done()
+    </script>
+</body>
+
+</html>
